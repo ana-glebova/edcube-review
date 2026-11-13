@@ -1,0 +1,795 @@
+{
+  "lessons": [
+    {
+      "key": "winding-road",
+      "name": "Life is a winding road (metaphors)",
+      "source": "winding-road.txt",
+      "split": [],
+      "outside": [],
+      "lost": [],
+      "calls": 1,
+      "tokens": 11705,
+      "tokens_lesson": 11705,
+      "tokens_vision": 0
+    },
+    {
+      "key": "fr-a2-1",
+      "name": "Le français et moi — Le français : une ouverture sur le monde — Vivre la ville",
+      "source": "fr-a2-1.txt",
+      "split": [],
+      "outside": [],
+      "lost": [],
+      "calls": 1,
+      "tokens": 14098,
+      "tokens_lesson": 14098,
+      "tokens_vision": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "winding-road:0:0",
+      "lesson": "winding-road",
+      "section": "Lead-in",
+      "label": "Look at the pictures, which are graphic representations of different m",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Look at the pictures, which are graphic representations of different metaphors, and discuss what concepts and ideas you think they illustrate.",
+          "html": "<p>Look at the pictures, which are graphic representations of different metaphors, and discuss what concepts and ideas you think they illustrate.</p><pre>&lt;p&gt;Pictures 1–4&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:0:1",
+      "lesson": "winding-road",
+      "section": "Lead-in",
+      "label": "Картинка",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Картинка",
+          "title": "",
+          "html": "<p><i>пустой текст задания</i></p>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:0:2",
+      "lesson": "winding-road",
+      "section": "Lead-in",
+      "label": "Discuss the questions.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Discuss the questions.",
+          "html": "<p>Discuss the questions.</p><pre>&lt;ul&gt;&lt;li&gt;Why are metaphors important?&lt;/li&gt;&lt;li&gt;Why are some metaphors hard to understand?&lt;/li&gt;&lt;/ul&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:0",
+      "lesson": "winding-road",
+      "section": "Video and discussion",
+      "label": "Watch the first part of a <u>video</u> (to 01:15) and check your answe",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Видео",
+          "title": "Watch the first part of a <u>video</u> (to 01:15) and check your answers.",
+          "html": "<p>Watch the first part of a &lt;u&gt;video&lt;/u&gt; (to 01:15) and check your answers.</p><pre>https://youtu.be/Ww9V1IA-HwI</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:1",
+      "lesson": "winding-road",
+      "section": "Video and discussion",
+      "label": "Choose an opinion which best describes your attitude to metaphors and ",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Choose an opinion which best describes your attitude to metaphors and explain your choice.",
+          "html": "<p>Choose an opinion which best describes your attitude to metaphors and explain your choice.</p><pre>&lt;ol type=&quot;a&quot;&gt;&lt;li&gt;“When you&#x27;re trying to make sense of abstract concepts like the meaning of life, it can be hard to wrap your head around them. But with a good metaphor, it&#x27;s like a lightbulb goes off and everything just clicks into place.”&lt;/li&gt;&lt;li&gt;“I have to be honest – metaphors can be a real pain in the neck. I&#x27;d rather stick to plain, straightforward language since any ambiguity or confusion that comes with metaphors can be disastrous.”&lt;/li&gt;&lt;li&gt;“I sometimes wonder why some authors are so obsessed with metaphors when keeping the text plain and simple would benefit the book much more. It’s not that I don’t appreciate a good metaphor, but sometimes less is more. Unless it’s poetry, I guess. Poets need metaphors more than prose writers.”&lt;/li&gt;&lt;li&gt;“I don&#x27;t really think about metaphors all that much. I guess they can be useful in marketing or communication, but they&#x27;re not a game-changer for me. At the end of the day, it&#x27;s all about results and getting the job done.”&lt;/li&gt;&lt;/ol&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:2",
+      "lesson": "winding-road",
+      "section": "Video and discussion",
+      "label": "Complete the sentences with your own ideas.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Ввести слово в пропуск",
+          "title": "Complete the sentences with your own ideas.",
+          "html": "<p>Complete the sentences with your own ideas.</p><pre>a) One of the best ways to &lt;strong&gt;break the ice&lt;/strong&gt; at social events is…\nb) When it comes to discussing &lt;strong&gt;thorny issues&lt;/strong&gt; like politics, I tend to…\nc) Reflecting on my &lt;strong&gt;life&#x27;s rich tapestry&lt;/strong&gt;, I realize that some of the most important experiences I&#x27;ve had were…\nd) When somebody’s speech is &lt;strong&gt;littered with swear words&lt;/strong&gt;, I can assume that…\ne) &lt;strong&gt;Every day being a winding road&lt;/strong&gt; can be challenging, but…</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:3",
+      "lesson": "winding-road",
+      "section": "Video and discussion",
+      "label": "Complete the gap in each statement with one word.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Ввести слово в пропуск",
+          "title": "Complete the gap in each statement with one word.",
+          "html": "<p>Complete the gap in each statement with one word.</p><pre>a) Metaphors are hard to avoid when we want to explain things that are _____.\nb) Some metaphors have become so familiar they almost feel _____.\nc) Metaphors play a huge role in political framing – the idea that the words we choose affect how we _____ social issues.\nd) Using military metaphors to describe cancer treatment can make people feel _____ about their chances of survival.\ne) A Stanford study suggests that people who read a pamphlet that described crime as a _____ were more likely to endorse stricter policing.</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:4",
+      "lesson": "winding-road",
+      "section": "Video and discussion",
+      "label": "Картинка",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Картинка",
+          "title": "",
+          "html": "<p><i>пустой текст задания</i></p>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:5",
+      "lesson": "winding-road",
+      "section": "Video and discussion",
+      "label": "Watch the second part of the <u>video</u> (from 01:15) and check your ",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Видео",
+          "title": "Watch the second part of the <u>video</u> (from 01:15) and check your ideas.",
+          "html": "<p>Watch the second part of the &lt;u&gt;video&lt;/u&gt; (from 01:15) and check your ideas.</p><pre>https://youtu.be/Ww9V1IA-HwI</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:6",
+      "lesson": "winding-road",
+      "section": "Video and discussion",
+      "label": "Discuss the questions.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Discuss the questions.",
+          "html": "<p>Discuss the questions.</p><pre>&lt;ul&gt;&lt;li&gt;Are you surprised by any of the facts from the video? Why/Why not?&lt;/li&gt;&lt;li&gt;How do you feel about the facts you weren’t aware of previously?&lt;/li&gt;&lt;li&gt;Do you disagree with anything? If yes, explain why.&lt;/li&gt;&lt;/ul&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:0",
+      "lesson": "winding-road",
+      "section": "Metaphor practice",
+      "label": "Complete each category with two metaphors in the box.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Слова по колонкам",
+          "title": "Complete each category with two metaphors in the box.",
+          "html": "<p>Complete each category with two metaphors in the box.</p><pre>heartbreak/going through a break-up\nbe a complete mess\nbottle up your feelings\ntime is money\nbe generous with your time\nspend today profitably\norientational metaphors\nbe at the peak of health\nrise above your emotions\ncrime metaphors\ncrime waves\nthe criminal underworld</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:1",
+      "lesson": "winding-road",
+      "section": "Metaphor practice",
+      "label": "Заметка",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "",
+          "html": "<pre>&lt;p&gt;be at the peak of health&lt;/p&gt;&lt;p&gt;be a complete mess&lt;/p&gt;&lt;p&gt;crime waves&lt;/p&gt;&lt;p&gt;be generous with your time&lt;/p&gt;&lt;p&gt;rise above your emotions&lt;/p&gt;&lt;p&gt;bottle up your feelings&lt;/p&gt;&lt;p&gt;spend today profitably&lt;/p&gt;&lt;p&gt;the criminal underworld&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:2",
+      "lesson": "winding-road",
+      "section": "Metaphor practice",
+      "label": "Then, brainstorm more examples to add to each category.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Письмо",
+          "title": "Then, brainstorm more examples to add to each category.",
+          "html": "<p>Then, brainstorm more examples to add to each category.</p>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:3",
+      "lesson": "winding-road",
+      "section": "Metaphor practice",
+      "label": "Decide which metaphors in the box you would use for each of the action",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Decide which metaphors in the box you would use for each of the actions in the list below.",
+          "html": "<p>Decide which metaphors in the box you would use for each of the actions in the list below.</p><pre>&lt;p&gt;&lt;strong&gt;Actions:&lt;/strong&gt;&lt;/p&gt;&lt;ol type=&quot;a&quot;&gt;&lt;li&gt;create a poster for a language course&lt;/li&gt;&lt;li&gt;make a toast at a family gathering&lt;/li&gt;&lt;li&gt;talk to a friend who’s facing relationship problems&lt;/li&gt;&lt;li&gt;brief your boss on the progress of a project&lt;/li&gt;&lt;li&gt;impress your date with your eloquence&lt;/li&gt;&lt;li&gt;persuade investors to fund your project&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;Metaphors:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;the canvas of your heart&lt;/li&gt;&lt;li&gt;a bridge to a new world&lt;/li&gt;&lt;li&gt;on the right track&lt;/li&gt;&lt;li&gt;get back to your roots&lt;/li&gt;&lt;li&gt;the symphony of words&lt;/li&gt;&lt;li&gt;unlock new opportunities&lt;/li&gt;&lt;li&gt;sail towards success&lt;/li&gt;&lt;li&gt;the path of love gets rocky&lt;/li&gt;&lt;li&gt;a constellation that guides you&lt;/li&gt;&lt;li&gt;navigate the turbulent waters of the market&lt;/li&gt;&lt;li&gt;plant a seed of success&lt;/li&gt;&lt;/ul&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:4",
+      "lesson": "winding-road",
+      "section": "Metaphor practice",
+      "label": "Choose two actions and make notes of what you’d actually say/write.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Письмо",
+          "title": "Choose two actions and make notes of what you’d actually say/write.",
+          "html": "<p>Choose two actions and make notes of what you’d actually say/write.</p>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:5",
+      "lesson": "winding-road",
+      "section": "Metaphor practice",
+      "label": "Work in pairs. Ask a question that encourages your partner to use one ",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Work in pairs. Ask a question that encourages your partner to use one of the metaphors in the box in their answer.",
+          "html": "<p>Work in pairs. Ask a question that encourages your partner to use one of the metaphors in the box in their answer.</p><pre>&lt;p&gt;&lt;strong&gt;Metaphors:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;a lightbulb goes off&lt;/li&gt;&lt;li&gt;be consumed by jealousy&lt;/li&gt;&lt;li&gt;be generous with your time&lt;/li&gt;&lt;li&gt;be under your control&lt;/li&gt;&lt;li&gt;bottle up your feelings&lt;/li&gt;&lt;li&gt;break the ice&lt;/li&gt;&lt;li&gt;rise above your emotions&lt;/li&gt;&lt;li&gt;the criminal underworld&lt;/li&gt;&lt;li&gt;wrap your head around&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;EXAMPLE:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;How did you feel when you saw your partner flirting with a stranger?&lt;/p&gt;&lt;p&gt;I was consumed by jealousy.&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:0:0",
+      "lesson": "fr-a2-1",
+      "section": "Le français et moi",
+      "label": "Картинка",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Картинка",
+          "title": "",
+          "html": "<p><i>пустой текст задания</i></p>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:0:1",
+      "lesson": "fr-a2-1",
+      "section": "Le français et moi",
+      "label": "Lisez et répondez.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Lisez et répondez.",
+          "html": "<p>Lisez et répondez.</p><pre>&lt;ol&gt;&lt;li&gt;De quel concours est-il question dans ce document ? Qui pouvait y participer ?&lt;/li&gt;&lt;li&gt;Que fait Pierre pour améliorer sa connaissance du français ?&lt;/li&gt;&lt;li&gt;Quelle est la caractéristique de la Louisiane ? Savez-vous pourquoi ?&lt;/li&gt;&lt;li&gt;Que fait Midori avec les mots français ?&lt;/li&gt;&lt;/ol&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:0:2",
+      "lesson": "fr-a2-1",
+      "section": "Le français et moi",
+      "label": "Associez.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Сопоставить",
+          "title": "Associez.",
+          "html": "<p>Associez.</p><pre>Pierre aime le français pour…\nsa littérature.\nAnthony aime le français pour…\nsa musicalité.\nMidori aime le français pour…\nses mots évocateurs.</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:0:3",
+      "lesson": "fr-a2-1",
+      "section": "Le français et moi",
+      "label": "Текст",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "",
+          "html": "<pre>&lt;p&gt;Et vous ? Qu’aimez-vous dans la langue française ?&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:0:4",
+      "lesson": "fr-a2-1",
+      "section": "Le français et moi",
+      "label": "Je révise",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "Je révise",
+          "html": "<p>Je révise</p><pre>&lt;p&gt;Je &lt;strong&gt;le / la / les&lt;/strong&gt; connais.&lt;/p&gt;&lt;p&gt;Je &lt;strong&gt;lui / leur&lt;/strong&gt; téléphone.&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:0:5",
+      "lesson": "fr-a2-1",
+      "section": "Le français et moi",
+      "label": "Je révise",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "Je révise",
+          "html": "<p>Je révise</p><pre>&lt;p&gt;J’ai acheté &lt;strong&gt;un livre&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Je n’ai pas acheté &lt;strong&gt;de livre&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;J’ai acheté &lt;strong&gt;du sucre&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;Je n’ai pas acheté &lt;strong&gt;de sucre&lt;/strong&gt;.&lt;/p&gt;&lt;p&gt;C’est &lt;strong&gt;un / du&lt;/strong&gt; café.&lt;/p&gt;&lt;p&gt;Ce n’est pas &lt;strong&gt;un / du&lt;/strong&gt; café.&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:1:0",
+      "lesson": "fr-a2-1",
+      "section": "Le français : une ouverture sur le monde",
+      "label": "CD • 001 Écoutez et répondez par vrai ou faux.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Аудио",
+          "title": "CD • 001 Écoutez et répondez par vrai ou faux.",
+          "html": "<p>CD • 001 Écoutez et répondez par vrai ou faux.</p>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:1:1",
+      "lesson": "fr-a2-1",
+      "section": "Le français : une ouverture sur le monde",
+      "label": "Écoutez et répondez par vrai ou faux.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "truefalseunknown",
+          "title": "Écoutez et répondez par vrai ou faux.",
+          "html": "<p>Écoutez et répondez par vrai ou faux.</p><pre>False\nDans le monde, il y a plus de 200 millions de francophones.\nOn trouve des pays francophones sur tous les continents.\nLe français est la langue maternelle de Duong Mai.\nLe grand-père de Duong Mai se trouve à Montréal depuis 2 ans.\nOxana Tornea est bilingue.\nElle a trouvé un travail à Bruxelles.\nFrans a appris le français à Paris.\nIl va bientôt quitter les Pays-Bas.</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:1:2",
+      "lesson": "fr-a2-1",
+      "section": "Le français : une ouverture sur le monde",
+      "label": "Je révise",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "Je révise",
+          "html": "<p>Je révise</p><pre>&lt;p&gt;hollandais – hollandaise&lt;br&gt;belge – belge&lt;br&gt;roumain – roumaine&lt;br&gt;vietnamien – vietnamienne&lt;br&gt;champion – championne&lt;br&gt;naturel – naturelle&lt;br&gt;sportif – sportive&lt;br&gt;heureux – heureuse&lt;br&gt;chanteur – chanteuse&lt;br&gt;acteur – actrice&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:1:3",
+      "lesson": "fr-a2-1",
+      "section": "Le français : une ouverture sur le monde",
+      "label": "Complétez les phrases avec les prépositions / articles appropriés.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Ввести слово в пропуск",
+          "title": "Complétez les phrases avec les prépositions / articles appropriés.",
+          "html": "<p>Complétez les phrases avec les prépositions / articles appropriés.</p><pre>Duong habite [au] Vietnam.\nSon grand-père est parti [du] Vietnam pour aller [au] Canada.\nOxana habite [en] Roumanie ; elle veut aller travailler [en] Belgique.\nSa mère vient [de] Belgique.\nFrans habite [aux] Pays-Bas.\nIl va bientôt vivre [à] Paris.</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:1:4",
+      "lesson": "fr-a2-1",
+      "section": "Le français : une ouverture sur le monde",
+      "label": "Je révise",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "Je révise",
+          "html": "<p>Je révise</p><pre>&lt;p&gt;étudiant – étudiants&lt;br&gt;temps – temps&lt;br&gt;chapeau – chapeaux&lt;br&gt;journal – journaux&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:1:5",
+      "lesson": "fr-a2-1",
+      "section": "Le français : une ouverture sur le monde",
+      "label": "Je révise",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "Je révise",
+          "html": "<p>Je révise</p><pre>&lt;p&gt;&lt;strong&gt;mon&lt;/strong&gt; lycée&lt;br&gt;&lt;strong&gt;ma&lt;/strong&gt; classe&lt;br&gt;&lt;strong&gt;mon&lt;/strong&gt; école&lt;br&gt;&lt;strong&gt;mes&lt;/strong&gt; camarades&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:1:6",
+      "lesson": "fr-a2-1",
+      "section": "Le français : une ouverture sur le monde",
+      "label": "Je révise",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "Je révise",
+          "html": "<p>Je révise</p><pre>&lt;p&gt;Je vais / J’habite en&lt;br&gt;Suisse.&lt;br&gt;Je viens de Suisse.&lt;/p&gt;&lt;p&gt;Je vais / J’habite au&lt;br&gt;Québec.&lt;br&gt;Je viens du Québec.&lt;/p&gt;&lt;p&gt;Je vais / J’habite aux&lt;br&gt;Antilles.&lt;br&gt;Je viens des Antilles.&lt;/p&gt;&lt;p&gt;Je vais / J’habite à&lt;br&gt;Bamako.&lt;br&gt;Je viens de Bamako.&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:2:0",
+      "lesson": "fr-a2-1",
+      "section": "La longue histoire de la Francophonie",
+      "label": "Картинка",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Картинка",
+          "title": "",
+          "html": "<p><i>пустой текст задания</i></p>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:2:1",
+      "lesson": "fr-a2-1",
+      "section": "La longue histoire de la Francophonie",
+      "label": "À partir des légendes, faites des phrases au passé.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Письмо",
+          "title": "À partir des légendes, faites des phrases au passé.",
+          "html": "<p>À partir des légendes, faites des phrases au passé.</p>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:3:0",
+      "lesson": "fr-a2-1",
+      "section": "Les jeux de la Francophonie",
+      "label": "Картинка",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Картинка",
+          "title": "",
+          "html": "<p><i>пустой текст задания</i></p>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:3:1",
+      "lesson": "fr-a2-1",
+      "section": "Les jeux de la Francophonie",
+      "label": "Observez l’affiche et répondez oralement.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Observez l’affiche et répondez oralement.",
+          "html": "<p>Observez l’affiche et répondez oralement.</p><pre>&lt;ol&gt;&lt;li&gt;Qu’annonce cette affiche ?&lt;/li&gt;&lt;li&gt;C’était où ? C’était quand ?&lt;/li&gt;&lt;li&gt;Est-ce que c’était la première édition de cet événement ?&lt;/li&gt;&lt;li&gt;Quelle est la devise de ces jeux ?&lt;/li&gt;&lt;li&gt;Est-ce que la manifestation prévoit seulement des compétitions sportives ?&lt;/li&gt;&lt;li&gt;Pourquoi les personnes appartiennent-elles à des ethnies différentes ?&lt;/li&gt;&lt;li&gt;Pourquoi, à votre avis, il y a 5 ballons ?&lt;/li&gt;&lt;li&gt;De quelles couleurs sont-ils ?&lt;/li&gt;&lt;/ol&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:3:2",
+      "lesson": "fr-a2-1",
+      "section": "Les jeux de la Francophonie",
+      "label": "Je révise",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "Je révise",
+          "html": "<p>Je révise</p><pre>&lt;p&gt;Il est chanteur.&lt;br&gt;&lt;strong&gt;C’est&lt;/strong&gt; un chanteur.&lt;/p&gt;&lt;p&gt;Ce film, il est amusant !&lt;br&gt;Aller au cinéma, &lt;strong&gt;c’est amusant&lt;/strong&gt; !&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:3:3",
+      "lesson": "fr-a2-1",
+      "section": "Les jeux de la Francophonie",
+      "label": "Картинка",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Картинка",
+          "title": "",
+          "html": "<p><i>пустой текст задания</i></p>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:3:4",
+      "lesson": "fr-a2-1",
+      "section": "Les jeux de la Francophonie",
+      "label": "Choisissez un personnage de l’affiche et décrivez-le oralement ; vous ",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Choisissez un personnage de l’affiche et décrivez-le oralement ; vous devez parler de son aspect, de sa tenue (vêtements, accessoires, couleurs…) et de son activité.",
+          "html": "<p>Choisissez un personnage de l’affiche et décrivez-le oralement ; vous devez parler de son aspect, de sa tenue (vêtements, accessoires, couleurs…) et de son activité.</p>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:4:0",
+      "lesson": "fr-a2-1",
+      "section": "Vivre la ville",
+      "label": "À VOUS ! Répondez aux questions.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "À VOUS ! Répondez aux questions.",
+          "html": "<p>À VOUS ! Répondez aux questions.</p><pre>&lt;ol type=&quot;A&quot;&gt;&lt;li&gt;Vous habitez où ?&lt;ul&gt;&lt;li&gt;Dans une grande ville.&lt;/li&gt;&lt;li&gt;Dans une petite ville.&lt;/li&gt;&lt;li&gt;Dans un village.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;Est-ce que vous connaissez bien votre ville ou village ? Quel est le monument le plus célèbre ?&lt;/li&gt;&lt;li&gt;Vous aimez voyager ? Quelles villes est-ce que vous avez déjà visitées ?&lt;/li&gt;&lt;/ol&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:4:1",
+      "lesson": "fr-a2-1",
+      "section": "Vivre la ville",
+      "label": "L’INFO EN +",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "L’INFO EN +",
+          "html": "<p>L’INFO EN +</p><pre>&lt;p&gt;Bruxelles est le siège de nombreuses &lt;strong&gt;institutions européennes&lt;/strong&gt; : la Commission européenne, le Conseil de l’Union européenne, les bureaux de la Présidence, les commissions du Parlement européen et le Comité des Régions. Bruxelles est en outre le siège politique de l’OTAN (Organisation du Traité de l’Atlantique Nord).&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:4:2",
+      "lesson": "fr-a2-1",
+      "section": "Vivre la ville",
+      "label": "CD • 002 Ils parlent de Bruxelles. Écoutez et répondez aux questions.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Аудио",
+          "title": "CD • 002 Ils parlent de Bruxelles. Écoutez et répondez aux questions.",
+          "html": "<p>CD • 002 Ils parlent de Bruxelles. Écoutez et répondez aux questions.</p>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:4:3",
+      "lesson": "fr-a2-1",
+      "section": "Vivre la ville",
+      "label": "Écoutez et répondez aux questions.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Тест",
+          "title": "Écoutez et répondez aux questions.",
+          "html": "<p>Écoutez et répondez aux questions.</p><pre>Quel est le sujet de cette émission de radio ?\nLes attractions touristiques de Bruxelles.\nLe point de vue des habitants sur leur ville.\nLes qualités et les défauts d’une capitale européenne.\nQui parle ?\nDes touristes.\nDes habitants.\nDes membres du Parlement européen.\nÀ votre avis, quelle est la question posée par la journaliste aux trois personnes interviewées ?\nDans quel quartier de Bruxelles vous habitez ?\nQuel est votre monument préféré de Bruxelles ?\nComment est-ce que vous trouvez Bruxelles ?</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:4:4",
+      "lesson": "fr-a2-1",
+      "section": "Vivre la ville",
+      "label": "Картинка",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Картинка",
+          "title": "",
+          "html": "<p><i>пустой текст задания</i></p>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:4:5",
+      "lesson": "fr-a2-1",
+      "section": "Vivre la ville",
+      "label": "Écoutez encore une fois et associez le nom des personnes interviewées ",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Écoutez encore une fois et associez le nom des personnes interviewées à la photo correspondante.",
+          "html": "<p>Écoutez encore une fois et associez le nom des personnes interviewées à la photo correspondante.</p><pre>&lt;p&gt;a&lt;/p&gt;&lt;p&gt;b&lt;/p&gt;&lt;p&gt;c&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:4:6",
+      "lesson": "fr-a2-1",
+      "section": "Vivre la ville",
+      "label": "Écoutez de nouveau. Vrai ou faux ? À l’oral, corrigez les affirmations",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "truefalseunknown",
+          "title": "Écoutez de nouveau. Vrai ou faux ? À l’oral, corrigez les affirmations fausses.",
+          "html": "<p>Écoutez de nouveau. Vrai ou faux ? À l’oral, corrigez les affirmations fausses.</p><pre>Sarah habite dans le quartier des institutions européennes.\nTrue\nSarah trouve que le métro est mieux que le bus.\nTrue\nFatima n’a pas une bonne opinion de la ville.\nFalse\nFatima pense que le soir à Bruxelles est ennuyeux.\nFalse\nPour Léon, la ville de Bruxelles est aussi animée que d’autres capitales européennes.\nTrue\nLéon affirme que vivre à Bruxelles est un peu stressant.\nFalse</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:4:7",
+      "lesson": "fr-a2-1",
+      "section": "Vivre la ville",
+      "label": "L’INFO EN +",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "L’INFO EN +",
+          "html": "<p>L’INFO EN +</p><pre>&lt;p&gt;Un des symboles de la capitale belge est le &lt;strong&gt;Manneken Pis&lt;/strong&gt;, une petite statue en bronze, haute d’environ 60 cm, qui représente un enfant qui fait pipi. Selon la tradition, on offre au Manneken Pis un vêtement (il en possède plus de 900 !) et plusieurs fois par an – à des dates fixes – la statue est habillée avec l’un de ses costumes.&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fr-a2-1:4:8",
+      "lesson": "fr-a2-1",
+      "section": "Vivre la ville",
+      "label": "Lisez la transcription des interviews et répondez.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Lisez la transcription des interviews et répondez.",
+          "html": "<p>Lisez la transcription des interviews et répondez.</p><pre>&lt;p&gt;&lt;strong&gt;Aujourd’hui, Radio Bruxelles nous fait voyager au cœur de la ville. Écoutons la voix de quelques Bruxellois.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Sarah&lt;/strong&gt; Bonjour, moi, c’est Sarah. J’habite à Bruxelles depuis toujours. C’est une jolie ville, agréable, internationale, surtout dans le quartier des institutions européennes. J’habite à quelques minutes à pied de la Grand-Place, dans une petite rue. Mes voisins viennent des quatre coins de l’Europe : de Grèce, du Portugal, des Pays-Bas… Je prends le métro pour aller au lycée : c’est plus rapide et pratique que le bus.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Fatima&lt;/strong&gt; Je m’appelle Fatima. Je viens de Paris, j’ai longtemps habité aux États-Unis et au Canada. Je suis arrivée à Bruxelles il y a deux ans. C’est vrai, Bruxelles n’est pas aussi grande que Paris, il n’y a pas autant d’attractions, mais c’est tout de même une capitale, active et accueillante. J’habite dans un quartier très tranquille. Il y a une belle ambiance, on peut faire de longues promenades et les gens discutent beaucoup. Le soir, c’est très animé surtout à côté du célèbre Manneken Pis.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Léon&lt;/strong&gt; Moi, c’est Léon et je suis né ici. Pour mon travail, je voyage beaucoup : au Brésil, en Chine, et même en Ouzbékistan, mais je reste très attaché à Bruxelles. C’est une ville chaleureuse et dynamique ; et même si elle est moins grande que d’autres capitales, on s’amuse autant. Et on est moins stressé ! La ville offre beaucoup de surprises et d’émotions : on ne s’ennuie jamais !&lt;/p&gt;&lt;ol&gt;&lt;li&gt;D’où viennent les voisins de Sarah ?&lt;/li&gt;&lt;li&gt;D’où vient Fatima ?&lt;/li&gt;&lt;li&gt;Où a longtemps habité Fatima ?&lt;/li&gt;&lt;li&gt;Qu’a fait Fatima il y a deux ans ?&lt;/li&gt;&lt;li&gt;Où est né Léon ?&lt;/li&gt;&lt;li&gt;Pour son travail, Léon voyage beaucoup. Dans quels pays ?&lt;/li&gt;&lt;/ol&gt;</pre>"
+        }
+      ]
+    }
+  ]
+}

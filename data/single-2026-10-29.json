@@ -1,0 +1,693 @@
+{
+  "lessons": [
+    {
+      "key": "winding-road",
+      "name": "Life is a winding road (metaphors)",
+      "source": "winding-road.txt",
+      "split": [],
+      "outside": [],
+      "lost": [],
+      "calls": 1,
+      "tokens": 11498,
+      "tokens_lesson": 11498,
+      "tokens_vision": 0
+    },
+    {
+      "key": "fall-flavours",
+      "name": "Comfort Food in Fall",
+      "source": "Fall Flavours.docx",
+      "split": [],
+      "outside": [],
+      "lost": [],
+      "calls": 1,
+      "tokens": 15490,
+      "tokens_lesson": 15490,
+      "tokens_vision": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "winding-road:0:0",
+      "lesson": "winding-road",
+      "section": "Introduction",
+      "label": "Look at the pictures, which are graphic representations of different m",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Картинка",
+          "title": "Look at the pictures, which are graphic representations of different metaphors, and discuss what concepts and ideas you think they illustrate.",
+          "html": "<p>Look at the pictures, which are graphic representations of different metaphors, and discuss what concepts and ideas you think they illustrate.</p>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:0:1",
+      "lesson": "winding-road",
+      "section": "Introduction",
+      "label": "Discuss the questions.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Discuss the questions.",
+          "html": "<p>Discuss the questions.</p><pre>&lt;ul&gt;&lt;li&gt;Why are metaphors important?&lt;/li&gt;&lt;li&gt;Why are some metaphors hard to understand?&lt;/li&gt;&lt;/ul&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:0:2",
+      "lesson": "winding-road",
+      "section": "Introduction",
+      "label": "Watch the first part of a <u>video</u> (to 01:15) and check your answe",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Видео",
+          "title": "Watch the first part of a <u>video</u> (to 01:15) and check your answers.",
+          "html": "<p>Watch the first part of a &lt;u&gt;video&lt;/u&gt; (to 01:15) and check your answers.</p><pre>https://youtu.be/Ww9V1IA-HwI</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:0:3",
+      "lesson": "winding-road",
+      "section": "Introduction",
+      "label": "Choose an opinion which best describes your attitude to metaphors and ",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Choose an opinion which best describes your attitude to metaphors and explain your choice.",
+          "html": "<p>Choose an opinion which best describes your attitude to metaphors and explain your choice.</p><pre>&lt;ol type=&quot;a&quot;&gt;&lt;li&gt;“When you&#x27;re trying to make sense of abstract concepts like the meaning of life, it can be hard to wrap your head around them. But with a good metaphor, it&#x27;s like a lightbulb goes off and everything just clicks into place.”&lt;/li&gt;&lt;li&gt;“I have to be honest – metaphors can be a real pain in the neck. I&#x27;d rather stick to plain, straightforward language since any ambiguity or confusion that comes with metaphors can be disastrous.”&lt;/li&gt;&lt;li&gt;“I sometimes wonder why some authors are so obsessed with metaphors when keeping the text plain and simple would benefit the book much more. It’s not that I don’t appreciate a good metaphor, but sometimes less is more. Unless it’s poetry, I guess. Poets need metaphors more than prose writers.”&lt;/li&gt;&lt;li&gt;“I don&#x27;t really think about metaphors all that much. I guess they can be useful in marketing or communication, but they&#x27;re not a game-changer for me. At the end of the day, it&#x27;s all about results and getting the job done.”&lt;/li&gt;&lt;/ol&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:0",
+      "lesson": "winding-road",
+      "section": "Practice",
+      "label": "Complete the sentences with your own ideas.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Ввести слово в пропуск",
+          "title": "Complete the sentences with your own ideas.",
+          "html": "<p>Complete the sentences with your own ideas.</p><pre>a) One of the best ways to &lt;strong&gt;break the ice&lt;/strong&gt; at social events is…\nb) When it comes to discussing &lt;strong&gt;thorny issues&lt;/strong&gt; like politics, I tend to…\nc) Reflecting on my &lt;strong&gt;life&#x27;s rich tapestry&lt;/strong&gt;, I realize that some of the most important experiences I&#x27;ve had were…\nd) When somebody’s speech is &lt;strong&gt;littered with swear words&lt;/strong&gt;, I can assume that…\ne) &lt;strong&gt;Every day being a winding road&lt;/strong&gt; can be challenging, but…</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:1",
+      "lesson": "winding-road",
+      "section": "Practice",
+      "label": "Complete the gap in each statement with one word.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Ввести слово в пропуск",
+          "title": "Complete the gap in each statement with one word.",
+          "html": "<p>Complete the gap in each statement with one word.</p><pre>a) Metaphors are hard to avoid when we want to explain things that are [].\nb) Some metaphors have become so familiar they almost feel [].\nc) Metaphors play a huge role in political framing – the idea that the words we choose affect how we [] social issues.\nd) Using military metaphors to describe cancer treatment can make people feel [] about their chances of survival.\ne) A Stanford study suggests that people who read a pamphlet that described crime as a [] were more likely to endorse stricter policing.</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:2",
+      "lesson": "winding-road",
+      "section": "Practice",
+      "label": "Картинка",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Картинка",
+          "title": "",
+          "html": "<p><i>пустой текст задания</i></p>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:3",
+      "lesson": "winding-road",
+      "section": "Practice",
+      "label": "Watch the second part of the <u>video</u> (from 01:15) and check your ",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Видео",
+          "title": "Watch the second part of the <u>video</u> (from 01:15) and check your ideas.",
+          "html": "<p>Watch the second part of the &lt;u&gt;video&lt;/u&gt; (from 01:15) and check your ideas.</p><pre>https://youtu.be/Ww9V1IA-HwI</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:1:4",
+      "lesson": "winding-road",
+      "section": "Practice",
+      "label": "Discuss the questions.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Discuss the questions.",
+          "html": "<p>Discuss the questions.</p><pre>&lt;ul&gt;&lt;li&gt;Are you surprised by any of the facts from the video? Why/Why not?&lt;/li&gt;&lt;li&gt;How do you feel about the facts you weren’t aware of previously?&lt;/li&gt;&lt;li&gt;Do you disagree with anything? If yes, explain why.&lt;/li&gt;&lt;/ul&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:0",
+      "lesson": "winding-road",
+      "section": "Metaphor Practice",
+      "label": "Complete each category with two metaphors in the box. Then, brainstorm",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Слова по колонкам",
+          "title": "Complete each category with two metaphors in the box. Then, brainstorm more examples to add to each category.",
+          "html": "<p>Complete each category with two metaphors in the box. Then, brainstorm more examples to add to each category.</p><pre>heartbreak/going through a break-up\nbe a complete mess\nbottle up your feelings\ntime is money\nbe generous with your time\nspend today profitably\norientational metaphors\nbe at the peak of health\nrise above your emotions\ncrime metaphors\ncrime waves\nthe criminal underworld</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:1",
+      "lesson": "winding-road",
+      "section": "Metaphor Practice",
+      "label": "Then, brainstorm more examples to add to each category.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Письмо",
+          "title": "Then, brainstorm more examples to add to each category.",
+          "html": "<p>Then, brainstorm more examples to add to each category.</p>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:2",
+      "lesson": "winding-road",
+      "section": "Metaphor Practice",
+      "label": "Decide which metaphors in the box you would use for each of the action",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Decide which metaphors in the box you would use for each of the actions in the list below. Choose two actions and make notes of what you’d actually say/write.",
+          "html": "<p>Decide which metaphors in the box you would use for each of the actions in the list below. Choose two actions and make notes of what you’d actually say/write.</p><pre>&lt;ol type=&quot;a&quot;&gt;&lt;li&gt;create a poster for a language course&lt;/li&gt;&lt;li&gt;make a toast at a family gathering&lt;/li&gt;&lt;li&gt;talk to a friend who’s facing relationship problems&lt;/li&gt;&lt;li&gt;brief your boss on the progress of a project&lt;/li&gt;&lt;li&gt;impress your date with your eloquence&lt;/li&gt;&lt;li&gt;persuade investors to fund your project&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;the canvas of your heart&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;a bridge to a new world&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;on the right track&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;get back to your roots&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;the symphony of words&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;unlock new opportunities&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;sail towards success&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;the path of love gets rocky&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;a constellation that guides you&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;navigate the turbulent waters of the market&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;plant a seed of success&lt;/strong&gt;&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:3",
+      "lesson": "winding-road",
+      "section": "Metaphor Practice",
+      "label": "Choose two actions and make notes of what you’d actually say/write.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Письмо",
+          "title": "Choose two actions and make notes of what you’d actually say/write.",
+          "html": "<p>Choose two actions and make notes of what you’d actually say/write.</p>"
+        }
+      ]
+    },
+    {
+      "id": "winding-road:2:4",
+      "lesson": "winding-road",
+      "section": "Metaphor Practice",
+      "label": "Work in pairs. Ask a question that encourages your partner to use one ",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Work in pairs. Ask a question that encourages your partner to use one of the metaphors in the box in their answer.",
+          "html": "<p>Work in pairs. Ask a question that encourages your partner to use one of the metaphors in the box in their answer.</p><pre>&lt;p&gt;&lt;strong&gt;a lightbulb goes off&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;be consumed by jealousy&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;be generous with your time&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;be under your control&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;bottle up your feelings&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;break the ice&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;rise above your emotions&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;the criminal underworld&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;wrap your head around&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;EXAMPLE:&lt;/strong&gt;&lt;br&gt;How did you feel when you saw your partner flirting with a stranger?&lt;br&gt;I was consumed by jealousy.&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:0:0",
+      "lesson": "fall-flavours",
+      "section": "Picture dictionary",
+      "label": "Заметка",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Заметка",
+          "title": "",
+          "html": "<pre>&lt;h3&gt;Spices &amp;amp; Seasonings&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;cinnamon&lt;/li&gt;&lt;li&gt;nutmeg&lt;/li&gt;&lt;li&gt;ginger&lt;/li&gt;&lt;li&gt;pepper&lt;/li&gt;&lt;li&gt;garlic&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Flavor Words&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;sweet&lt;/strong&gt; – taste of sugar (apple pie, jam, honey)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;sour&lt;/strong&gt; – sharp taste (berries, cabbage soup)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;spicy&lt;/strong&gt; – strong taste with hot spices (ginger tea, pumpkin spice)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;salty&lt;/strong&gt; – taste of salt (soups, stews)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;rich&lt;/strong&gt; – heavy, filling taste (meat stew, chocolate cake)&lt;/li&gt;&lt;li&gt;&lt;strong&gt;creamy&lt;/strong&gt; – smooth and soft (soups, porridge)&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Common dishes&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;a bowl of soup&lt;/strong&gt; – soup served in a bowl, usually warm and simple.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;a slice of pie&lt;/strong&gt; – one piece of pie, cut from a bigger one.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;mac and cheese&lt;/strong&gt; – pasta with cheese sauce, a very popular American dish.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;mashed potatoes&lt;/strong&gt; – potatoes that are boiled and then made soft with milk or butter.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;a cup of hot chocolate&lt;/strong&gt; – a warm drink made with milk and chocolate.&lt;/li&gt;&lt;/ul&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:1:0",
+      "lesson": "fall-flavours",
+      "section": "Speaking and personal preferences",
+      "label": "Ex 1.1 Look at the collage and say how these dishes make you feel",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Ex 1.1 Look at the collage and say how these dishes make you feel",
+          "html": "<p>Ex 1.1 Look at the collage and say how these dishes make you feel</p><pre>&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; Hot chocolate makes me feel warm.&lt;/p&gt;&lt;p&gt;You can use the following words to describe feelings:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;happy&lt;/li&gt;&lt;li&gt;sad&lt;/li&gt;&lt;li&gt;good&lt;/li&gt;&lt;li&gt;bad&lt;/li&gt;&lt;li&gt;tasty&lt;/li&gt;&lt;li&gt;warm&lt;/li&gt;&lt;/ul&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:1:1",
+      "lesson": "fall-flavours",
+      "section": "Speaking and personal preferences",
+      "label": "Ex 1.2 Rate the dishes from the least favorite (1) to the most favorit",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Ввести слово в пропуск",
+          "title": "Ex 1.2 Rate the dishes from the least favorite (1) to the most favorite (5)",
+          "html": "<p>Ex 1.2 Rate the dishes from the least favorite (1) to the most favorite (5)</p><pre>&lt;strong&gt;pumpkin soup&lt;/strong&gt; []\n&lt;strong&gt;apple pie&lt;/strong&gt; []\n&lt;strong&gt;mac and cheese&lt;/strong&gt; []\n&lt;strong&gt;mashed potatoes&lt;/strong&gt; []\n&lt;strong&gt;hot chocolate&lt;/strong&gt; []\nFalse</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:1:2",
+      "lesson": "fall-flavours",
+      "section": "Speaking and personal preferences",
+      "label": "Ex 1.3 Talk about your own comfort food.\nThink of one fall dish you li",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Ex 1.3 Talk about your own comfort food.\nThink of one fall dish you like.\nSay:\nWhat is it?\nWhy do you like it?\nWhen do you usually eat it?",
+          "html": "<p>Ex 1.3 Talk about your own comfort food.\nThink of one fall dish you like.\nSay:\nWhat is it?\nWhy do you like it?\nWhen do you usually eat it?</p><pre>&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; My comfort food is an apple pie. I like it because it is sweet and tasty. I usually eat it on weekends with my family.&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:2:0",
+      "lesson": "fall-flavours",
+      "section": "Listening: Cozy Talks",
+      "label": "Ex 1.1 Before you listen: Cozy Talks\nThe talk is about Comfort Food in",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Письмо",
+          "title": "Ex 1.1 Before you listen: Cozy Talks\nThe talk is about Comfort Food in Fall.\nIn pairs, write 2–3 foods you think they will say.",
+          "html": "<p>Ex 1.1 Before you listen: Cozy Talks\nThe talk is about Comfort Food in Fall.\nIn pairs, write 2–3 foods you think they will say.</p>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:2:1",
+      "lesson": "fall-flavours",
+      "section": "Listening: Cozy Talks",
+      "label": "What do you think they will talk about?",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Тест",
+          "title": "What do you think they will talk about?",
+          "html": "<p>What do you think they will talk about?</p><pre>They talk about foods they like\nThey say how to cook food\nThey talk about family holidays</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:2:2",
+      "lesson": "fall-flavours",
+      "section": "Listening: Cozy Talks",
+      "label": "Ex 1.2 Listen to the podcast.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Аудио",
+          "title": "Ex 1.2 Listen to the podcast.",
+          "html": "<p>Ex 1.2 Listen to the podcast.</p><pre>Ann: Hi everyone! Welcome to Cozy Talks. I’m Ann. George: And I’m George. Today, we talk about comfort food in the fall.\nAnn: I really love cinnamon and nutmeg. When I bake with them, the house smells so lovely. George: Oh yes, I know that smell! My favorite is apple pie. It’s sweet and rich. Do you like pies? Ann: Yes, I do! But for me, pumpkin soup is better. It’s creamy and salty. It makes me feel warm. George: Mmm, that sounds good. I usually drink hot chocolate in the evening. It’s creamy too, and very sweet. Ann: Nice! Do you like spicy drinks? George: Sometimes. I drink ginger tea. It’s spicy, but I like it in cold weather. Ann: I also eat cabbage soup in the fall. It’s a bit sour, but tasty. George: Really? I don’t eat it much. I prefer mashed potatoes. They are soft and salty. Ann: Mashed potatoes are great! But I love mac and cheese even more. It’s creamy and cheesy—my favorite comfort food. George: Haha, I see we both like creamy food. Fall is really the season for tasty dishes. Ann: That’s true. Thanks for listening, everyone. See you next time!</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:2:3",
+      "lesson": "fall-flavours",
+      "section": "Listening: Cozy Talks",
+      "label": "Ex 1.2 Listen to the podcast. What do Ann and George talk about?",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Тест",
+          "title": "Ex 1.2 Listen to the podcast. What do Ann and George talk about?",
+          "html": "<p>Ex 1.2 Listen to the podcast. What do Ann and George talk about?</p><pre>They talk about foods they like in the fall\nThey say how to cook food\nThey talk about family holidays\n0</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:2:4",
+      "lesson": "fall-flavours",
+      "section": "Listening: Cozy Talks",
+      "label": "Ex. 1.3 Listen again. Match each person with the foods they talk about",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Сопоставить",
+          "title": "Ex. 1.3 Listen again. Match each person with the foods they talk about",
+          "html": "<p>Ex. 1.3 Listen again. Match each person with the foods they talk about</p><pre>Ann\npumpkin soup\nAnn\ncabbage soup\nAnn\nmac and cheese\nGeorge\nhot chocolate\nGeorge\nginger tea\nGeorge\nmashed potatoes\nGeorge\napple pie</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:2:5",
+      "lesson": "fall-flavours",
+      "section": "Listening: Cozy Talks",
+      "label": "Ex 1.4 Listen again. Are these sentences true or false?",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "truefalseunknown",
+          "title": "Ex 1.4 Listen again. Are these sentences true or false?",
+          "html": "<p>Ex 1.4 Listen again. Are these sentences true or false?</p><pre>Ann likes the smell of cinnamon, nutmeg, and ginger in the fall.\nTrue\nGeorge’s favorite food is pumpkin soup.\nFalse\nAnn says a cup of hot chocolate is sweet.\nFalse\nGeorge drinks ginger tea with pumpkin spice in the fall.\nFalse\nAnn says cabbage soup is sour.\nTrue\nGeorge says fall food is tasty.\nTrue</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:2:6",
+      "lesson": "fall-flavours",
+      "section": "Listening: Cozy Talks",
+      "label": "Ex 1.5 Match the food with the feeling from the podcast",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Сопоставить",
+          "title": "Ex 1.5 Match the food with the feeling from the podcast",
+          "html": "<p>Ex 1.5 Match the food with the feeling from the podcast</p><pre>A slice of apple pie\nsweet &amp; rich\nA bowl of pumpkin soup\ncreamy &amp; salty\nA cup of hot chocolate\ncreamy &amp; sweet\nGinger tea\nspicy\nCabbage soup\nsour but tasty\nMashed potatoes\nsoft &amp; salty\nMac and cheese\ncreamy &amp; cheesy</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:2:7",
+      "lesson": "fall-flavours",
+      "section": "Listening: Cozy Talks",
+      "label": "Ex 1.6 Let’s play Food Dice Game\nHow to play:\nRoll the dice two times.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Ex 1.6 Let’s play Food Dice Game\nHow to play:\nRoll the dice two times.\nLook at the lists.\nTake one food word and one feeling word.\nMake a short sentence.",
+          "html": "<p>Ex 1.6 Let’s play Food Dice Game\nHow to play:\nRoll the dice two times.\nLook at the lists.\nTake one food word and one feeling word.\nMake a short sentence.</p><pre>&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;🎲 You roll 1 (pumpkin pie) and 7 (cozy).&lt;/p&gt;&lt;p&gt;👉 “Pumpkin pie makes me feel cozy.”&lt;/p&gt;&lt;p&gt;👉 “Pumpkin pie is cozy.”&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Useful phrases:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;_____ is _____&lt;/li&gt;&lt;li&gt;_____ tastes _____&lt;/li&gt;&lt;li&gt;_____ makes me feel _____&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;List 1 – Foods (for Dice Roll 1)&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Pumpkin pie&lt;/li&gt;&lt;li&gt;Apple pie&lt;/li&gt;&lt;li&gt;Mac and cheese&lt;/li&gt;&lt;li&gt;Mashed potatoes&lt;/li&gt;&lt;li&gt;Chicken soup&lt;/li&gt;&lt;li&gt;Cabbage soup&lt;/li&gt;&lt;li&gt;Hot chocolate&lt;/li&gt;&lt;li&gt;Ginger tea&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;List 2 – Feelings / Flavors (for Dice Roll 2)&lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Sweet&lt;/li&gt;&lt;li&gt;Sour&lt;/li&gt;&lt;li&gt;Spicy&lt;/li&gt;&lt;li&gt;Salty&lt;/li&gt;&lt;li&gt;Rich&lt;/li&gt;&lt;li&gt;Creamy&lt;/li&gt;&lt;li&gt;Cozy&lt;/li&gt;&lt;li&gt;Warm&lt;/li&gt;&lt;li&gt;Filling&lt;/li&gt;&lt;/ol&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:3:0",
+      "lesson": "fall-flavours",
+      "section": "Vocabulary practice",
+      "label": "Ex 1.1 Match the words with the pictures",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Перетащить слово к картинке",
+          "title": "Ex 1.1 Match the words with the pictures",
+          "html": "<p>Ex 1.1 Match the words with the pictures</p>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:3:1",
+      "lesson": "fall-flavours",
+      "section": "Vocabulary practice",
+      "label": "Ex 1.2 Sort out the words into three columns and fill in the gaps from",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Слова по колонкам",
+          "title": "Ex 1.2 Sort out the words into three columns and fill in the gaps from the box",
+          "html": "<p>Ex 1.2 Sort out the words into three columns and fill in the gaps from the box</p><pre>Spice / Seasoning\ncinnamon\nnutmeg\nginger\npepper\ngarlic\nFlavor Words\nsweet\nsour\nspicy\nsalty\nrich\ncreamy\nCommon Dishes\na bowl of soup\na slice of pie\nmac and cheese\nmashed potatoes\na cup of hot chocolate</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:3:2",
+      "lesson": "fall-flavours",
+      "section": "Vocabulary practice",
+      "label": "Ввести слово в пропуск",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Ввести слово в пропуск",
+          "title": "",
+          "html": "<pre>1. I like a slice of apple [pie].\n2. Pumpkin soup is [creamy] and salty with a little [ginger].\n3. [Ginger] tea is very [spicy].\n4. Meat [stew] tastes rich and heavy.\n5. Cabbage [soup] is sour but also rich and [tasty].\n6. [Mashed] potatoes are creamy and salty with butter.</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:3:3",
+      "lesson": "fall-flavours",
+      "section": "Vocabulary practice",
+      "label": "Ex 1.3 Let’s play Food Bingo\nInstructions:\nChoose 3 words in a line.\nS",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Ex 1.3 Let’s play Food Bingo\nInstructions:\nChoose 3 words in a line.\nSay 3 sentences.",
+          "html": "<p>Ex 1.3 Let’s play Food Bingo\nInstructions:\nChoose 3 words in a line.\nSay 3 sentences.</p><pre>&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; “Pumpkin pie is sweet. Soup is salty. Hot chocolate is creamy.”&lt;/p&gt;&lt;h3&gt;Grid 1&lt;/h3&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Mac and cheese&lt;/th&gt;&lt;th&gt;creamy&lt;/th&gt;&lt;th&gt;cheesy&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Pumpkin soup&lt;/td&gt;&lt;td&gt;creamy&lt;/td&gt;&lt;td&gt;salty&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Mashed potatoes&lt;/td&gt;&lt;td&gt;soft&lt;/td&gt;&lt;td&gt;salty&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Grid 2&lt;/h3&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;a bowl of soup&lt;/th&gt;&lt;th&gt;warm&lt;/th&gt;&lt;th&gt;tasty&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;a cup of hot chocolate&lt;/td&gt;&lt;td&gt;creamy&lt;/td&gt;&lt;td&gt;sweet&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;cabbage soup&lt;/td&gt;&lt;td&gt;sour&lt;/td&gt;&lt;td&gt;tasty&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Grid 3&lt;/h3&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;apple pie&lt;/th&gt;&lt;th&gt;sweet&lt;/th&gt;&lt;th&gt;rich&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ginger tea&lt;/td&gt;&lt;td&gt;spicy&lt;/td&gt;&lt;td&gt;warm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pumpkin pie&lt;/td&gt;&lt;td&gt;rich&lt;/td&gt;&lt;td&gt;filling&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:3:4",
+      "lesson": "fall-flavours",
+      "section": "Vocabulary practice",
+      "label": "Ex 1.4 Say about the food. Don’t say the name. Others guess",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Ex 1.4 Say about the food. Don’t say the name. Others guess",
+          "html": "<p>Ex 1.4 Say about the food. Don’t say the name. Others guess</p><pre>&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; “It is sweet. You eat a slice. What is it?” → Pie.&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:4:0",
+      "lesson": "fall-flavours",
+      "section": "Questions and discussion",
+      "label": "Ex 1.1 Write the questions using the prompts. Then, discuss them with ",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "Ex 1.1 Write the questions using the prompts. Then, discuss them with your partner",
+          "html": "<p>Ex 1.1 Write the questions using the prompts. Then, discuss them with your partner</p><pre>&lt;h3&gt;Part A: General questions&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;What / your favorite comfort food?&lt;/li&gt;&lt;li&gt;/ you like sweet / salty food more?&lt;/li&gt;&lt;li&gt;What food / you eat when you feel cold?&lt;/li&gt;&lt;li&gt;/ you like spicy food?&lt;/li&gt;&lt;li&gt;What / your favorite dessert?&lt;/li&gt;&lt;/ol&gt;&lt;h3&gt;Part B: Spices and flavors&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;/ you like cinnamon / nutmeg?&lt;/li&gt;&lt;li&gt;/ you drink ginger tea / hot chocolate in fall?&lt;/li&gt;&lt;li&gt;/ you like salty / sweet food more?&lt;/li&gt;&lt;li&gt;/ you like creamy soup?&lt;/li&gt;&lt;li&gt;/ you like garlic / pepper?&lt;/li&gt;&lt;/ol&gt;&lt;h3&gt;Part C: Common dishes&lt;/h3&gt;&lt;ol&gt;&lt;li&gt;/ you like mashed potatoes / mac and cheese more?&lt;/li&gt;&lt;li&gt;/ you eat cabbage soup? / you like it?&lt;/li&gt;&lt;li&gt;Which / more rich: cabbage soup / pumpkin pie?&lt;/li&gt;&lt;li&gt;What / your favorite food in a bowl?&lt;/li&gt;&lt;/ol&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:5:0",
+      "lesson": "fall-flavours",
+      "section": "Crossword and vocabulary selection",
+      "label": "Ex 1.1 Do the crossword puzzle",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Ввести слово в пропуск",
+          "title": "Ex 1.1 Do the crossword puzzle",
+          "html": "<p>Ex 1.1 Do the crossword puzzle</p><pre>&lt;strong&gt;Across&lt;/strong&gt;\n2. A spice often used in apple pie, starts with “c” → [cinnamon]\n4. A smooth and soft taste, like soups or porridge → [creamy]\n6. Pasta with cheese sauce, very popular in the USA → [mac and cheese]\n8. A spice that is hot and used in tea, starts with “g” → [ginger]\n10. A heavy, filling taste, like chocolate cake → [rich]\n11. A slice of this dessert is often eaten in the fall → [pie]\n&lt;strong&gt;Down&lt;/strong&gt;\nA spice that smells like nuts, used in desserts → [nutmeg]\nA spice that is strong and hot, often in soups or stews → [pepper]\nA taste of salt, like in soups or stews → [salty]\nA warm drink made with milk and chocolate → [hot chocolate]\nA taste that is sharp, like berries or cabbage soup → [sour]\nPotatoes boiled and mashed with butter or milk → [mashed potatoes]\nA spice that is used a lot in Italian cooking, starts with “g” → [garlic]</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:5:1",
+      "lesson": "fall-flavours",
+      "section": "Crossword and vocabulary selection",
+      "label": "Ex 1.2 Choose the correct option",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Выбрать слово в пропуске",
+          "title": "Ex 1.2 Choose the correct option",
+          "html": "<p>Ex 1.2 Choose the correct option</p><pre>1. I like to put [pepper*/cinnamon/creamy] on my apple pie.\n2. My favorite comfort food is [mac and cheese*/garlic/ginger].\n3. I drink [mashed potatoes/spicy/a cup of hot chocolate*] in winter.\n4. [Cabbage soup*/Sour/Sweet] tastes rich and filling.\n5. I like [mashed potatoes/a bowl of soup/a slice of pie*] after dinner.\n6. Potato chips are [nutmeg/salty*/garlic].\n7. I add [spicy/cinnamon/pepper*] to my soup for flavor.</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:6:0",
+      "lesson": "fall-flavours",
+      "section": "Reading",
+      "label": "Ex 1.3 Read the text and choose the main idea",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Статья",
+          "title": "Ex 1.3 Read the text and choose the main idea",
+          "html": "<p>Ex 1.3 Read the text and choose the main idea</p><pre>&lt;h3&gt;Warm, Tasty, Happy: Your Comfort Food Guide&lt;/h3&gt;&lt;p&gt;We all need comfort food sometimes. Had a bad day? Feeling a little sick? Missing home? Comfort food can help.&lt;/p&gt;&lt;p&gt;Comfort food can be many things: soup, pie, pasta, or even hot chocolate. It is warm, tasty, and makes you feel good.&lt;/p&gt;&lt;p&gt;What is your favorite comfort food? Everyone is different. Some people love sweet desserts, some love salty soups or creamy pasta.&lt;/p&gt;&lt;p&gt;Here are some tips for a cozy feeling:&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Serve food hot.&lt;/strong&gt; Hot soups make you feel warm inside. Try chicken soup or pumpkin soup on a cold night.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Cook foods from your childhood.&lt;/strong&gt; Foods you ate as a child can make you feel happy and relaxed. Apple pie, mac and cheese, or mashed potatoes can bring back good memories.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Enjoy food with others.&lt;/strong&gt; Comfort food is even better when you share it. Eat pizza with friends, or drink hot chocolate with family.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ideas for this fall&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Chicken Noodle Soup – warm, salty, and simple.&lt;/p&gt;&lt;p&gt;Apple Pie – sweet and cozy.&lt;/p&gt;&lt;p&gt;Mac and Cheese – creamy, cheesy, and filling.&lt;/p&gt;&lt;p&gt;Homemade Pizza – cheesy and fun to eat together.&lt;/p&gt;&lt;p&gt;Comfort food is for everyone. It makes you happy, warm, and relaxed. Try your favorite dish this fall and enjoy the comfort it brings!&lt;/p&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:6:1",
+      "lesson": "fall-flavours",
+      "section": "Reading",
+      "label": "Тест",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Тест",
+          "title": "",
+          "html": "<pre>What is the text about?\nHow to make pizza\nComfort food and why people like it\nFamous cooks\nOnly healthy food\n1</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:6:2",
+      "lesson": "fall-flavours",
+      "section": "Reading",
+      "label": "Read the text again. Choose the correct answer.",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Тест",
+          "title": "Read the text again. Choose the correct answer.",
+          "html": "<p>Read the text again. Choose the correct answer.</p><pre>Comfort food can be …\nsoup, pie, pasta, or hot chocolate\nonly soup\nonly sweet desserts\n0\nWhy can foods from childhood make you feel good?\nThey are always salty.\nThey bring back happy memories.\nThey are quick to cook.\n1\nWhat makes food even better, according to the text?\nEating alone\nEating with others\nEating quickly\n1\nWhich food is described as creamy, cheesy, and filling?\nApple pie\nChicken noodle soup\nMac and Cheese\n2</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:7:0",
+      "lesson": "fall-flavours",
+      "section": "Writing",
+      "label": "Текст",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Текст",
+          "title": "",
+          "html": "<pre>&lt;p&gt;&lt;strong&gt;Wordbox&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;cinnamon, nutmeg, ginger, pepper, garlic, sweet, sour, spicy, salty, rich, creamy, a bowl of soup, a slice of pie, mac and cheese, mashed potatoes, a cup of hot chocolate&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Use these sentence starters:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;My favorite comfort food in fall is …&lt;/li&gt;&lt;li&gt;It is (sweet / spicy / filling).&lt;/li&gt;&lt;li&gt;I usually eat it (at home / in a café / with my family / with friends).&lt;/li&gt;&lt;li&gt;It makes me feel (cozy / happy / relaxed).&lt;/li&gt;&lt;/ul&gt;</pre>"
+        }
+      ]
+    },
+    {
+      "id": "fall-flavours:7:1",
+      "lesson": "fall-flavours",
+      "section": "Writing",
+      "label": "Ex 1.5 Write 4-5 sentences about your favorite comfort food in the fal",
+      "hint": "",
+      "expected": [],
+      "src": [],
+      "why": "",
+      "parts": [
+        {
+          "tpl": "Письмо",
+          "title": "Ex 1.5 Write 4-5 sentences about your favorite comfort food in the fall. Use the words from the box",
+          "html": "<p>Ex 1.5 Write 4-5 sentences about your favorite comfort food in the fall. Use the words from the box</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Проверка переноса</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky toolbar (lesson tabs + progress + filter), then one review card per task: source | result side by side, verdict row under. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --ink: #17202a;
+  --muted: #5d6b78;
+  --line: #d9dfe5;
+  --accent: #1f5fa8;
+  --accent-soft: #e3edf8;
+  --ok: #1e7a46; --ok-soft: #e1f2e8;
+  --part: #9a6400; --part-soft: #fbf0d9;
+  --bad: #b3261e; --bad-soft: #fbe3e1;
+  --mark: #fff1b8;
+  --f-body: "Golos Text", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12161b; --surface: #1a2027; --ink: #e6ebf0; --muted: #96a3b0; --line: #2d3640;
+  --accent: #79aef0; --accent-soft: #1d2d42;
+  --ok: #6fcf97; --ok-soft: #173326; --part: #f0c060; --part-soft: #3a2f14; --bad: #ff8a80; --bad-soft: #3d1c1a;
+  --mark: #4a3f12; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12161b; --surface: #1a2027; --ink: #e6ebf0; --muted: #96a3b0; --line: #2d3640;
+  --accent: #79aef0; --accent-soft: #1d2d42;
+  --ok: #6fcf97; --ok-soft: #173326; --part: #f0c060; --part-soft: #3a2f14; --bad: #ff8a80; --bad-soft: #3d1c1a;
+  --mark: #4a3f12; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--f-body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 48px }
+.wrap { max-width: 1180px; margin: 0 auto }
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg);
+  border-bottom: 1px solid var(--line); padding-block: 14px 12px; display: grid; gap: 10px }
+h1 { font-size: 20px; margin: 0; font-weight: 700; text-wrap: balance }
+.sub { color: var(--muted); font-size: 13px; margin: 0 }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
+.tab, .flt { font: 500 13px var(--f-body); border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  padding: 6px 12px; border-radius: 999px; cursor: pointer }
+.tab[aria-pressed="true"], .flt[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface) }
+.stats { font: 12px var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; display: flex; gap: 14px; flex-wrap: wrap }
+.stats b { color: var(--ink) }
+.bar { height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; display: flex }
+.bar i { display: block; height: 100% }
+.notice { font-size: 13px; padding: 8px 12px; border-radius: 6px; background: var(--part-soft); color: var(--ink) }
+main { display: grid; gap: 14px; padding-top: 16px }
+h2.sec { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 14px 0 0; font-weight: 600 }
+.card { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 8px; padding: 14px; display: grid; gap: 12px }
+.card[data-v="ok"] { border-left-color: var(--ok) }
+.card[data-v="partial"] { border-left-color: var(--part) }
+.card[data-v="bad"] { border-left-color: var(--bad) }
+.head { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline }
+.label { font: 600 14px var(--f-mono) }
+.chip { font: 12px var(--f-mono); padding: 2px 8px; border-radius: 4px; background: var(--accent-soft); color: var(--ink) }
+.chip.flag { background: var(--part-soft) }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px }
+.cols.three { grid-template-columns: 1fr 1fr 1fr }
+@media (max-width: 1100px) { .cols.three { grid-template-columns: 1fr 1fr } .cols.three > div:first-child { grid-column: 1 / -1 } }
+.cols > div { min-width: 0 }
+.cap { font: 500 11px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px }
+.src { font-size: 13.5px; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 420px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; padding: 10px }
+.src p { margin: 0 0 4px }
+.res { display: grid; gap: 10px; max-height: 420px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; padding: 10px; font-size: 13.5px; overflow-wrap: anywhere }
+.part + .part { border-top: 1px dashed var(--line); padding-top: 10px }
+.tpl { font: 600 12px var(--f-mono); color: var(--accent) }
+.ptitle { font-weight: 600; margin: 2px 0 4px }
+.label u, .ptitle u, .src u, .res u { text-decoration: underline }
+.label s, .label del, .ptitle s, .ptitle del, .src s, .src del, .res s, .res del { text-decoration: line-through }
+.label strong, .label b, .ptitle strong, .ptitle b { font-weight: 800 }
+.res p, .res div { margin: 0 0 4px }
+.res ul { margin: 2px 0 8px; padding-left: 20px }
+.res li.ok { font-weight: 600; color: var(--ok) }
+.res .q { font-weight: 500 }
+.res table { border-collapse: collapse; font-size: 12.5px }
+.res td { border: 1px solid var(--line); padding: 3px 6px; vertical-align: top }
+.res .tbl { overflow-x: auto }
+.imgs { display: flex; flex-wrap: wrap; gap: 8px }
+.src-img { max-width: 100%; max-height: 220px; border: 1px solid var(--line, #ddd); border-radius: 6px; background: #fff }
+.src-img.sm { max-height: 72px; vertical-align: middle }
+.img-task li { margin: 4px 0 }
+figure.pair { margin: 0; display: inline-flex; flex-direction: column; gap: 4px }
+figure.pair figcaption { font-size: 12px; color: var(--muted) }
+.ai-note { color: var(--muted); font-size: 13px }
+mark.gap { background: var(--mark); color: var(--ink); padding: 0 3px; border-radius: 3px }
+mark.gap.bad { background: var(--bad-soft) }
+.hint { color: var(--muted) }
+.verdict { display: grid; gap: 8px }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden }
+.seg button { font: 500 13px var(--f-body); border: 0; padding: 7px 14px; background: var(--surface); color: var(--ink); cursor: pointer }
+.seg button + button { border-left: 1px solid var(--line) }
+.seg button[aria-pressed="true"][data-v="ok"] { background: var(--ok); color: var(--surface) }
+.seg button[aria-pressed="true"][data-v="partial"] { background: var(--part); color: var(--surface) }
+.seg button[aria-pressed="true"][data-v="bad"] { background: var(--bad); color: var(--surface) }
+select, textarea { font: 13.5px var(--f-body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px }
+textarea { width: 100%; min-height: 56px; resize: vertical }
+.saved { font: 12px var(--f-mono); color: var(--muted) }
+button:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.tplbox { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; margin: 0; padding: 10px 12px; border-radius: 6px; background: var(--accent-soft); font-size: 13.5px }
+.tplbox dt { font: 500 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding-top: 2px }
+.tplbox dd { margin: 0; min-width: 0; overflow-wrap: anywhere }
+@media (max-width: 480px) { .tplbox { grid-template-columns: 1fr } }
+.empty { color: var(--muted); padding: 24px 0 }
+@media (max-width: 720px) { .cols, .cols.three { grid-template-columns: 1fr } }
+.side { font: 600 12px var(--f-mono); min-width: 64px }
+.vrow { display: grid; gap: 6px; padding-top: 8px; border-top: 1px dashed var(--line) }
+.vrow:first-child { border-top: 0; padding-top: 0 }
+.diff { color: var(--bad); font-weight: 600 }
+.miss { color: var(--muted); font-style: italic }
+.split .scol h3 { font: 600 13px var(--f-body); margin: 10px 0 4px }
+.split .scol h3:first-child { margin-top: 0 }
+.split .scol ol { margin: 0; padding-left: 20px; font-size: 13px }
+.split .scol li span { color: var(--muted); font: 12px var(--f-mono) }
+.split .stl { font: 600 14px var(--f-body) }
+.card.split { border-left-color: var(--accent) }
+details { margin: 4px 0 8px } details summary { cursor: pointer; font-size: 13px } details .src { margin-top: 6px; max-height: 260px }
+.scol h3 { font: 600 13px var(--f-body); margin: 12px 0 4px } .scol h3:first-child { margin-top: 0 }
+.scol ol { margin: 0; padding-left: 20px; font-size: 13px } .scol li span { color: var(--muted); font: 12px var(--f-mono) }
+.stl { font: 600 14px var(--f-body) }
+.res .bank { position: sticky; top: -10px; z-index: 1; background: var(--surface); margin: -10px -10px 8px; padding: 8px 10px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 4px; align-items: center }
+.res .bank-cap { font: 500 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-right: 4px }
+.res .part { position: relative }
+</style>
+</head><body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Проверка переноса</h1>
+      <p class="sub">Урок перенесён в конструктор автоматически, как обычный материал учителя. Исходник — ваш урок без служебной разметки, заметок учителю и ответов, как страница учебника. Сначала оцените, как урок разбит на секции, потом каждое задание: слева исходник, справа — что получилось в конструкторе. Ответов в исходнике нет: проверьте, не придумал ли конструктор неверные. При «Частично» и «Неверно» выберите код ошибки и коротко напишите, как должно быть.</p>
+    </div>
+    <div class="row" id="tabs" role="group" aria-label="Урок"></div>
+    <div class="row" role="group" aria-label="Фильтр">
+      <button class="flt" data-f="all" aria-pressed="true">Все</button>
+      <button class="flt" data-f="todo" aria-pressed="false">Не проверены</button>
+      <button class="flt" data-f="issues" aria-pressed="false">Частично и неверно</button>
+      <button class="flt" data-f="hint" aria-pressed="false">Шаблон не как в оригинале</button>
+    </div>
+    <div class="bar" id="bar" aria-hidden="true"></div>
+    <div class="stats" id="stats"></div>
+    <div class="notice" id="notice" hidden></div>
+  </header>
+  <main id="list"><p class="empty">Загружаю…</p></main>
+</div>
+<script src="/app.js?v=2026-11-05-fmt"></script>
+</body></html>
